@@ -15,20 +15,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		428FAA992CD64010006F309D /* Exceptions for "AnimationApp" folder in "AnimationApp" target */ = {
+		428FAAD22CD937BD006F309D /* Exceptions for "AnimationApp" folder in "AnimationApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 428FAA862CD6400E006F309D /* AnimationApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		428FAA892CD6400E006F309D /* AnimationApp */ = {
+		428FAACA2CD937BC006F309D /* AnimationApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				428FAA992CD64010006F309D /* Exceptions for "AnimationApp" folder in "AnimationApp" target */,
+				428FAAD22CD937BD006F309D /* Exceptions for "AnimationApp" folder in "AnimationApp" target */,
 			);
 			path = AnimationApp;
 			sourceTree = "<group>";
@@ -50,7 +50,7 @@
 		428FAA7E2CD6400E006F309D = {
 			isa = PBXGroup;
 			children = (
-				428FAA892CD6400E006F309D /* AnimationApp */,
+				428FAACA2CD937BC006F309D /* AnimationApp */,
 				428FAA882CD6400E006F309D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				428FAA892CD6400E006F309D /* AnimationApp */,
+				428FAACA2CD937BC006F309D /* AnimationApp */,
 			);
 			name = AnimationApp;
 			packageProductDependencies = (
@@ -156,7 +156,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q4C935HFS8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,7 +188,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q4C935HFS8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

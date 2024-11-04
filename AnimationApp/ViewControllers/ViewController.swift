@@ -24,7 +24,7 @@ final class ViewController: UIViewController {
     // MARK: - IB Actions
     @IBAction func animationButtonPressed(_ sender: UIButton) {
         animationLabel.animation = "zoomOut"
-        animation.x = 50
+        animationLabel.x = 50
         animationLabel.animate()
         animationLabel.text = animation.description
         

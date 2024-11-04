@@ -17,7 +17,7 @@ struct Animation: CustomStringConvertible {
         """
         preset: \(name)
         curve: \(curve)
-        force: \(String(formay:"%.02f", force))
+        force: \(String(format:"%.02f", force))
         duration: \(String(format: "%.02f", duration))
         delay: \(String(format: "%.02f", delay))
         """
