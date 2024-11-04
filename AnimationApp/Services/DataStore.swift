@@ -10,7 +10,7 @@ import SpringAnimation
 final class DataStore {
     
     static let shared = DataStore()
-    
+    // массив с названиями анимаций
     let animations: [AnimationPreset] = [
         .fadeIn,
         .fadeInDown,
@@ -40,7 +40,7 @@ final class DataStore {
         .wobble,
         .zoomOut
     ]
-    
+    // названия кривых
     let curves = AnimationCurve.allCases
     
     private init() {}

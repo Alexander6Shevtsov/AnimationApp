@@ -13,7 +13,7 @@ final class ViewController: UIViewController {
     // MARK: - IB Outlets
     @IBOutlet var animationView: SpringView!
     @IBOutlet var animationLabel: SpringLabel! {
-        didSet {
+        didSet { // вызывается сразу после изменения обьекта
             animationLabel.text = animation.description
         }
     }
@@ -28,7 +28,7 @@ final class ViewController: UIViewController {
         animationLabel.animate()
         animationLabel.text = animation.description
         
-        animationLabel.animateNext { [unowned self] in
+        animationLabel.animateNext { [unowned self] in // обработка ссылки
             animationLabel.animation = "zoomIn"
             animationLabel.animate()
             

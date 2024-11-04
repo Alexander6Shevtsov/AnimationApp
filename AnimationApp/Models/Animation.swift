@@ -4,7 +4,7 @@
 //
 //  Created by Alexander Shevtsov on 02.11.2024.
 //
-
+// модель данных
 struct Animation: CustomStringConvertible {
     
     let name: String
@@ -22,9 +22,9 @@ struct Animation: CustomStringConvertible {
         delay: \(String(format: "%.02f", delay))
         """
     }
-    
+    //  getter, свойство с типом Animation, возвращает анимацию
     static var randomAnimation: Animation {
-        Animation(
+        Animation(          // если массив будет пуст вернуть значение по умолчанию
             name: DataStore.shared.animations.randomElement()?.rawValue ?? "wobble",
             curve: DataStore.shared.curves.randomElement()?.rawValue ?? "easeIn",
             force: Double.random(in: 1...1.5),
